@@ -1,0 +1,67 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans:wght@300;500;600&display=swap");
+
+// Font Variables
+$Encode: 'Encode Sans', sans-serif;
+
+$break-small: 719px;
+
+//  COLORS
+
+$black:                     #191919;
+$white:                     #FFFFFF;
+$PurpleBlue:                #3D2D87;
+$PurpleButton:              #6B25B1;
+
+@mixin placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; }
+}
+
+@mixin box-sizing($box-model) {
+    -webkit-box-sizing: $box-model;
+    -moz-box-sizing: $box-model;
+    box-sizing: $box-model;
+}
+
+@mixin box-shadow($shadow...) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin border-radius ( $value: 3px ) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+    // keeps background from busting out of border
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+@mixin transition($transition...) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+@mixin transform($transforms) {
+    -webkit-transform: $transforms;
+    -moz-transform: $transforms;
+    -ms-transform: $transforms;
+    -o-transform: $transforms;
+    transform: $transforms;
+}
+
+@mixin backdrop-filter($backdrop-filter) {
+	-webkit-backdrop-filter: $backdrop-filter;
+	backdrop-filter: $backdrop-filter;
+}
+
+@function strip-unit($value) {
+    @return $value / ($value * 0 + 1);
+}
