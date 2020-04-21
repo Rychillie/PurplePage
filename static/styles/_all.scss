@@ -13,7 +13,10 @@ body {
 }
 
 header {
-    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 90px;
     margin-top: 0;
     display: inline-block;
     width: 100%;
@@ -35,8 +38,8 @@ header {
 
     .top-menu {
         nav {
-            margin-top: 50px;
-            margin-bottom: 50px;
+            margin-top: 90px;
+            margin-bottom: 90px;
 
             a.logo {
                 img {
@@ -77,6 +80,8 @@ header {
     .content {
         .grid {
             display: grid;
+            padding-top: 140px;
+            padding-bottom: 140px;
             grid-column-gap: 15px;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
