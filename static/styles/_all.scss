@@ -124,6 +124,56 @@ header {
     }
 }
 
+section {
+    .box {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 120px;
+        padding: 40px 60px;
+        background: rgb(50,37,116);
+        background: linear-gradient(145deg, rgba(50,37,116,1) 0%, rgba(97,46,176,1) 75%, rgba(134,46,219,1) 100%);
+        @include border-radius(50px);
+        @include box-sizing(border-box);
+
+        h3 {
+            font-size: 32px;
+            line-height: 40px;
+            font-family: $Encode;
+            font-weight: 500;
+            color: $white;
+        }
+
+        p {
+            max-width: 445px;
+            font-size: 22px;
+            line-height: 26px;
+            font-family: $Encode;
+            font-weight: 400;
+            color: $white;
+        }
+
+        a.download {
+            width: 170px;
+            height: 18px;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px 20px;
+            font-weight: 400;
+            color: $buttontext;
+            background: $white;
+            @include border-radius(250px);
+            @include box-shadow(0px 32px 18px 0px rgba(0, 50, 71, 0.21));
+        }
+    }
+}
+
 footer {
     position: relative;
     margin-top: 40px;
