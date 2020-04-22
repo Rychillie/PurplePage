@@ -123,3 +123,75 @@ header {
         }
     }
 }
+
+footer {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 90px;
+
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -40px;
+        height: 3px;
+        width: 100%;
+        background-color:rgba(127, 53, 205, 0.35);
+        @include transform(translate(-50%, 0));
+        @include border-radius(250px);
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .googleplay, .appstore {
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        &.copy {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            line-height: 18px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: $Encode;
+            color: $copycolor;
+        }
+    }
+
+    ul {
+        &.menu-footer {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        li {
+            &.item-lista {
+                padding: 5px 10px;
+                margin: 5px 20px;
+                font-family: $Encode;
+                font-size: 16px;
+                line-height: 18px;
+                font-weight: 500;
+                color: $copycolor;
+
+                &:first-child {
+                    font-size: 20px;
+                    margin: 5px 20px 10px;
+                    line-height: 24px;
+                    color: $PurpleTitleFooter;
+                }
+            }
+        }
+    }
+}
