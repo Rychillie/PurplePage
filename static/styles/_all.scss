@@ -125,6 +125,96 @@ header {
 }
 
 section {
+    .cards-primary {
+        ul.card-list {
+            display: flex;
+            justify-content: space-between;
+
+            li.card-item {
+                flex: 1;
+                display: block;
+                margin: 10px 25px;
+                position: relative;
+                padding: 30px;
+                @include box-shadow(0px 20px 140px 0px rgba(0,51,73,0.20));
+                @include transition(all .3s ease-in-out);
+                @include box-sizing(border-box);
+                @include border-radius(35px);
+
+                img {
+                    max-width: 32px;
+                    max-height: 32px;
+                    display: block;
+                }
+
+                h4 {
+                    display: block;
+                    color: $PurpleBlue;
+                    opacity: .9;
+                    font-size: 21px;
+                    line-height: 26px;
+                    font-weight: 600;
+                    padding: 10px 0;
+                    @include transition(all .3s ease-in-out);
+                }
+
+                p {
+                    display: block;
+                    color: $PurpleBlue;
+                    opacity: .8;
+                    font-size: 16px;
+                    line-height: 18px;
+                    font-weight: 300;
+                    padding: 10px 0 15px;
+                    @include transition(all .3s ease-in-out);
+                }
+
+                a {
+                    z-index: -1;
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    bottom: 100%;
+                    visibility: hidden;
+                    opacity: 0;
+                    color: $PurpleBlue;
+                    font-size: 0;
+                    line-height: 0;
+                    font-weight: 500;
+                    padding: 0;
+                    left: 0;
+                    right: 0;
+                    @include transition(all .3s ease-in-out);
+                }
+
+                &:hover {
+                    @include border-radius(35px 35px 0 0);
+
+                    h4, p {
+                        opacity: 1;
+                    }
+
+                    a {
+                        z-index: 1;
+                        background: white;
+                        width: 100%;
+                        height: auto;
+                        top: 100%;
+                        bottom: -48px;
+                        display: block;
+                        visibility: visible;
+                        opacity: 1;
+                        font-size: 16px;
+                        line-height: 18px;
+                        padding: 15px 30px 10px;
+                        @include border-radius(0 0 35px 35px);
+                        @include box-sizing(border-box);
+                    }
+                }
+            }
+        }
+    }
+
     .box {
         width: 100%;
         display: grid;

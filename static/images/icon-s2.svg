@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-963,-842)">
+        <g id="Icon" opacity="0.8">
+            <g transform="matrix(1,-0,-0,1,963,842)">
+                <use xlink:href="#_Image1" x="0" y="0" width="32px" height="28px"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image1" width="32px" height="28px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAcCAYAAAAAwr0iAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADRklEQVRIib2WW4hNURjHf2dPZBgxo+xc2inlNm23Rrlsws68KJIHD2p4cG0KhaTlXicPCAm5PKDkSSgPiD1ipYnwsKJmSjPtmYZ2GpfGZSbhYX9nOrY55sw4M1/tOutb+/v//mutvc/+UnQRnpueBfjAbGA0YAFfgTrgMXBLG/UpUTMMWA7MByYCg4GfQAtQCzzQRj1LslIJkbHAPmBmVrpV4GUiiozPA1dlvBrYkJhvlXFZltYL4JA2qvkvA56bngGcAIYAzcAVoEYb9UHmU7KyFXJZQCDli2W1N+Sq00b9krpSYBFQBYwFvgDbtFEvOw14bnoccFng14Fj2qiO5HZlmZ0gZkdKKhLR+n/UDAS2AyvFxBptVGNKVnYJKAeua6MO5xJJCI6WXQKo0ka15Fm3W0y8AtZagCfwJuBoPiIAAtwD7MkXLnFUWOWAV+TY/mZgPHBKG/W6B0KEUdAcRkFz93f+UfPTsf12YAFQZAHTZO5hT4T+MzKsaRbxg9SmjfrYX3RhtQEjLSDn094P0WEBDUCJ56ad/qIKqwRosIAayS/rLwNZrBoLuA38AFZ5brosd01hQhirhHnb0ka9A24CxcCOvjYgjGLgpjbqnSXJM8Qfj0rPTVf2FVm0K4V1BqAIIIyCdsf2m2RyjmP7NWEUFPS1lO/NcWAAsFcbVddpQEw0OrY/lPhTPM+x/TthFHwvEHw4cA4YAVzTRl3LzFmJe08QNw9jgJOemx7Mf4ZonBTNWmF0RlH2IIyCX47tPwLmApMB17H9+2EU/OglfBDxtk8H6oGt2qj2nAbERIdj+wGwUExMdWz/QU9NeG66mHi1FUAIbNRGfU7elzwCAKQL2iSFFcA56WzyhZcSn3kGvinTWSUj1VUyIXQamCBC1dqot93UjJIah3jbq3PBoYsjyI4wCr47tn8XmCLXEsf2n4dR8D4HfBJwlriTfgps6Wrb8zYgJjoc279HvKKpwFLH9hvDKGhIwBcRn/kw4B6wSxvV7Wv8zyNIAFLAeuL2G+K2/KL8XpfIX8h0xQUzkGVkMXCQ+P/8iaTnAt+A/dqoIFdtQQyIifHAEeJjgfgB3amNetNTrV4ZEBMlwAEZHtBGtfVG5zdVMClI+EtTcgAAAABJRU5ErkJggg=="/>
+    </defs>
+</svg>
