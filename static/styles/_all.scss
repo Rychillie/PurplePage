@@ -217,6 +217,52 @@ section {
         }
     }
 
+    .design {
+        display: grid;
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+
+        .left {
+            grid-area: 1 / 1;
+
+            h3 {
+                display: block;
+                font-size: 34px;
+                line-height: 32px;
+                color: $PurpleBlue;
+                font-weight: 600;
+                padding: 0;
+                margin: 60px 0;
+            }
+
+            p {
+                display: block;
+                font-size: 20px;
+                line-height: 24px;
+                color: $PurpleBlue;
+                font-weight: 300;
+                padding: 0;
+                margin: 40px 0;
+            }
+
+            a {
+                display: block;
+                font-size: 16px;
+                line-height: 20px;
+                color: $buttontext;
+                font-weight: 500;
+                padding: 0;
+                margin: 20px 0;
+            }
+        }
+
+        .right {
+            grid-area: 1 / 2;
+        }
+    }
 
     .pricing {
         padding: 40px 0;
