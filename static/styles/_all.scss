@@ -264,6 +264,64 @@ section {
         }
     }
 
+    .time {
+        display: grid;
+        grid-gap: 30px;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+
+        .left {
+            grid-area: 1 / 1;
+
+            img {
+                display: block;
+                max-width: 290px;
+                margin: 0 auto;
+            }
+        }
+
+        .right {
+            grid-area: 1 / 2;
+
+            h3 {
+                display: block;
+                font-size: 34px;
+                line-height: 32px;
+                color: $PurpleBlue;
+                font-weight: 600;
+                padding: 0;
+                margin: 60px 0;
+            }
+
+            p {
+                display: block;
+                font-size: 20px;
+                line-height: 24px;
+                color: $PurpleBlue;
+                font-weight: 300;
+                padding: 0;
+                margin: 40px 0;
+            }
+
+            a {
+                display: block;
+                font-size: 16px;
+                line-height: 20px;
+                color: $white;
+                background: $buttontext;
+                max-width: 220px;
+                text-align: center;
+                font-weight: 500;
+                padding: 10px 25px;
+                margin: 20px 0;
+                @include box-sizing(border-box);
+                @include border-radius(50px);
+            }
+        }
+    }
+
     .pricing {
         padding: 40px 0;
 
