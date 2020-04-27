@@ -3,9 +3,9 @@ module.exports = {
     title: 'PurplePage',
     description: `Lading Page OpenSource feito pela comunidade`,
     author: `@rychillie`,
-    siteUrl: `https://rychillie.net`,
+    siteUrl: `https://purplepage.rychillie.net`,
     titleTemplate: "%s · PurplePage",
-    url: "https://rychillie.net",
+    url: "https://purplepage.rychillie.net",
     image: "/images/logo.png",
   },
   plugins: [
