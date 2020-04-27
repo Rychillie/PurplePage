@@ -15,9 +15,9 @@ Para criar esta Lading Page utilizamos o [GatsbyJS](https://www.gatsbyjs.org/) e
 
 ## 🧐 Quais Plugins Utilizados?
 
-- ````npm install --save gatsby-plugin-manifest```` [Gatsby Plugin Manifest:](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/): Plugin para definir icone no cabeçalho e afins;
+- ````npm install --save gatsby-plugin-manifest```` [Gatsby Plugin Manifest](https://www.gatsbyjs.org/packages/gatsby-plugin-manifest/): Plugin para definir icone no cabeçalho e afins;
 
-- ````gatsby-plugin-google-fonts```` [Gatsby Plugin Google Fonts:](https://www.gatsbyjs.org/packages/gatsby-plugin-google-fonts/): Plugin para definir fonts através do website [Google Fonts](https://fonts.google.com/);
+- ````gatsby-plugin-google-fonts```` [Gatsby Plugin Google Fonts](https://www.gatsbyjs.org/packages/gatsby-plugin-google-fonts/): Plugin para definir fonts através do website [Google Fonts](https://fonts.google.com/);
 
 
 - ````npm install --save node-sass gatsby-plugin-sass```` [Gatsby Plugin Sass](https://www.gatsbyjs.org/packages/gatsby-plugin-sass/): Plugin para utilização do compilador de SCSS;
