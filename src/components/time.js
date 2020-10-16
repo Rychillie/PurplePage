@@ -10,7 +10,7 @@ const Time = () => (
                 <img src={TimePhone} alt="Icone"/>
             </div>
             <div className={"right"}>
-                <h3>Save  your time</h3>
+                <h3>Save your time</h3>
                 <p>Dictas scaevola democritum cu his, magna abhorreant dissentias utDictas scaevola democritum cu his.</p>
                 <Link to="/" className={"download"} title={"downloadapp"}>Download App ⟶</Link>
             </div>
