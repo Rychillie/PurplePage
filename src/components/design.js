@@ -7,7 +7,7 @@ const Design = () => (
     <section className={"container"}>
         <div className={"design"}>
             <div className={"left"}>
-                <h3>Modern &  Trendy Design</h3>
+                <h3>Modern & Trendy Design</h3>
                 <p>Dictas scaevola democritum cu his, magna abhorreant dissentias utDictas scaevola democritum cu his.</p>
                 <Link to="/" className={"download"} title={"downloadapp"}>Learn More ⟶</Link>
             </div>

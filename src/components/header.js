@@ -42,8 +42,8 @@ const Header = () => (
             <div className={"container"}>
                 <div className={"grid"}>
                     <div className={"item-left"}>
-                        <h2>Introducing Abstract<br/> App landing page.</h2>
-                        <p>A perfect landing page to showcase<br/> your new App.</p>
+                        <h2>Introducing Abstract<br/>App landing page.</h2>
+                        <p>A perfect landing page to showcase<br/>your new App.</p>
                     </div>
                     <div className={"item-right"}>
                         <img src={PhoneHeader} alt={"smartphone"} />

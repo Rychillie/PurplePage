@@ -35,7 +35,7 @@ const Footer = () => (
                         <ul className={"lista-footer"}>
                             <li className={"item-lista"}>Features</li>
                             <li className={"item-lista"}>Services</li>
-                            <li className={"item-lista"}>Online Shop </li>
+                            <li className={"item-lista"}>Online Shop</li>
                             <li className={"item-lista"}>Influences</li>
                             <li className={"item-lista"}>Media</li>
                             <li className={"item-lista"}>Brands</li>
